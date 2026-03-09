@@ -80,7 +80,7 @@ s_pi = socket.socket(socket.AF_INET, socket.SOCK_STREAM)#192.168.1.10
 
 try:
     # conectar a la PC (ajusta IP y puerto según tu servidor)
-    s_pc.connect(('192.168.1.8', 2024))
+    s_pc.connect(('192.168.1.15', 2024))#15portatil   8 pc
     print("Conectado al PC")
 
     s_pi.connect(('192.168.1.10', 2024))
